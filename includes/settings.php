@@ -26,7 +26,7 @@ add_action( 'admin_init', 'wc_conai_settings_init' );
  
 function wc_conai_section_developers_cb( $args ) {
     ?>
-        <p id="<?php echo esc_attr( $args['id'] ); ?>"><?php esc_html_e( 'Compila tutte le setioni per attivare il servizio.', 'wc_conai' ); ?></p>
+        <p id="<?php echo esc_attr( $args['id'] ); ?>"><?php esc_html_e( 'Compila tutte le sezioni per attivare il servizio.', 'wc_conai' ); ?></p>
     <?php
 }
 
